@@ -1,0 +1,24 @@
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+
+.idea/
+*.iml
+.vscode/
+
+*.log
+logs/
+
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+application-local.yml
+
+.DS_Store
+Thumbs.db
